@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Ma note numéro 1",
+    "message": "Le contenu de ma note"
+  },
+  {
+    "id": 2,
+    "title": "Ma note numéro 2",
+    "message": "Le contenu de ma note numéro 2"
+  },
+  {
+    "id": 3,
+    "title": "Ma note numéro 3",
+    "message": "Le contenu de ma note numéro 3"
+  }
+]
