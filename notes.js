@@ -2,7 +2,6 @@ const express = require('express')
 const fs = require('fs')
 const app = express()
 const port = 4200
-var obj = require('data.json');
 
 //On récupère les données du fichier json
 var file = fs.readFileSync("data.json");
@@ -33,4 +32,4 @@ app.post('/notes', (req, res) => {
     res.status(201).json({message:'Note enregistré'});
 });
 
-app.listen(port, () => console.log('Server running'))
+app.listen(port, () => console.log('Server running at localhost:' + port))
